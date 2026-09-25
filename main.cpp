@@ -9,6 +9,7 @@ Remarque(s) :
 #include <cmath>
 #include <iostream>
 #include <cstdlib>
+
 using namespace std;
 
 int main() {
@@ -37,7 +38,7 @@ int main() {
 
     double less_dy = dy - L1;                   // Distance du reste de L1
 
-    double L2 = sqrt(dx*dx + less_dy*less_dy);  // Distance de l'hypoténuse calculée avec théorème de pythagore
+    double L2 = sqrt(dx*dx + less_dy * less_dy);  // Distance de l'hypoténuse calculée avec théorème de pythagore
                                                 //dist. parcourue dans les rochers
 
     double roadTime =  L1 / s1;          // Temps passé sur la route
@@ -50,4 +51,3 @@ int main() {
 
     return EXIT_SUCCESS;
 }
-//"Voici le temps total: "
